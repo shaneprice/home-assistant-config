@@ -1,0 +1,10 @@
+# ---
+#     #
+#     # Customizes the entry lights in Home Assistant
+#     #
+#     # https://www.home-assistant.io/docs/configuration/customizing-devices/
+#     #
+# light.entry_light:
+#   friendly_name: Entry Yo
+#   icon: mdi:lightbulb-group
+    

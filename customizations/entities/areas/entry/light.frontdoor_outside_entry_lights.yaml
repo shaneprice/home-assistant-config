@@ -1,0 +1,10 @@
+# ---
+#     #
+#     # Customizes the kitchen cupboard light in Home Assistant
+#     #
+#     # https://www.home-assistant.io/docs/configuration/customizing-devices/
+#     #
+# light.frontdoor_outside_entry_lights:
+#     friendly_name: Front Door Outside Lights 1234
+#     icon: mdi:file-cabinet
+    

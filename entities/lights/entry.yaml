@@ -1,0 +1,17 @@
+# ---
+#     # Light group: Front Door
+#     # We have a wall with lights leading up to the front door and lights inside
+#     # Both have a Philips Hue light, which we control as one.
+#     #
+#     # Other lights needs to be replaced and hooked up.
+#     #
+#     # https://www.home-assistant.io/integrations/light.group/
+#     #
+# platform: group
+# name: front_door_entry
+# entities:
+#   - light.bookcase
+#   - light.entry_light
+#     #   - light.garden_veranda_wall
+#     #   - light.garden_wall
+    

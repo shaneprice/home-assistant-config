@@ -1,0 +1,4 @@
+# ---
+# light.entry_light:
+#     friendly_name: Entry Lights homie
+#     icon: mdi:lightbulb-group

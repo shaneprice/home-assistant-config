@@ -1,0 +1,11 @@
+# ---
+#     #
+#     # Customizes the tv room lights in Home Assistant
+#     #
+#     # https://www.home-assistant.io/docs/configuration/customizing-devices/
+#     #
+
+# light:tvroom_strip:
+#     friendly_name: TV Room Strippers yo!!!!
+#     icon: mdi:lightbulb
+    

@@ -1,0 +1,16 @@
+
+.storage/
+
+.cloud/
+
+secrets.yaml
+
+OZW_Log.txt
+
+*.sqlite
+
+zwcfg_0xd2f4fb67.xml
+
+*.db
+
+*.log

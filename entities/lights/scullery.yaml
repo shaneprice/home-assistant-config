@@ -1,0 +1,12 @@
+# ---
+#     # Light group: Office
+#     #
+#     # This light controls all the other lights in my office
+#     #
+#     # https://www.home-assistant.io/integrations/light.group/
+#     #
+# platform: group
+# name: scullery
+# entities:
+#   - light.scullery_light
+    

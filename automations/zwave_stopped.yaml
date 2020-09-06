@@ -1,0 +1,12 @@
+# ---
+#     description: Send notification on ZWave stop
+#     alias: zwave_shutdown_notification
+#     id: 55980c35-4373-48bf-aecc-e635dc963490
+#     mode: single
+#     trigger:
+#       - platform: homeassistant
+#         event: zwave.stop_network
+#     action:
+#       - service: notify.mobile_app_shanes_iphone
+#         data:
+#           message: ZWave is shutting down... Bye!

@@ -1,0 +1,10 @@
+---
+# Light group: Master Bedroom
+#
+# https://www.home-assistant.io/integrations/light.group/
+#
+platform: group
+name: master_bedroom
+entities:
+  - light.master_bedroom_ceiling
+  - light.master_bedroom_bedside_daphne
