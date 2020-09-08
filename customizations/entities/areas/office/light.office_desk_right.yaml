@@ -5,5 +5,5 @@
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 #
 light.office_desk_right:
-  friendly_name: Office Desk Right
+  friendly_name: Office Desk Right updated
   icon: mdi:desk-lamp

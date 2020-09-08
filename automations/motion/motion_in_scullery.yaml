@@ -1,0 +1,24 @@
+---
+description: Send notification on Home Assistant stop
+alias: motion_in_scullery
+id: '1599383727852'
+mode: single
+trigger:
+    platform: state
+    entity_id: binary_sensor.scullery
+    to: 'on'
+action:
+  # - service: notify.mobile_app_shanes_iphone
+  #   data:
+  #       message: Motion in the scullery 🤖
+  - service: light.turn_on
+    data: 
+        entity_id: light.scullery_light
+  - delay: 00:05:00
+  - service: light.turn_off
+    data:
+      entity_id: light.scullery_light
+  # - service: notify.mobile_app_shanes_iphone
+  #   data:
+  #       message: Lights off in scullery
+    

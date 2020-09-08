@@ -1,14 +1,14 @@
-# ---
-#     #
-#     # Customizes the tv room lights in Home Assistant
-#     #
-#     # https://www.home-assistant.io/docs/configuration/customizing-devices/
-#     #
-# light.scullery_dimmer:
-#   friendly_name: Scullery Lights yo
-#   icon: mdi:lightbulb-group
+---
+    #
+    # Customizes the tv room lights in Home Assistant
+    #
+    # https://www.home-assistant.io/docs/configuration/customizing-devices/
+    #
+light.scullery:
+  friendly_name: Scullery Lights
+  icon: mdi:lightbulb-on-outline
 
-#     # light:tvroom_strip:
-#     #     friendly_name: TV Room Strip
-#     #     icon: mdi:lightbulb
+    # light:tvroom_strip:
+    #     friendly_name: TV Room Strip
+    #     icon: mdi:lightbulb
     
