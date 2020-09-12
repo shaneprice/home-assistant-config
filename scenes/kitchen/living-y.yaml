@@ -1,0 +1,18 @@
+---
+# Scene to trigger when you walk into the kitchen
+# during the evening. It is just enough light
+# to get something to drink or get a snack.
+#
+name: Living Room - All Lights 100%
+id: dae842f3-688a-4d73-aee4-324cbc43c233
+entities:
+  light.dining_light:
+    brightness: 255
+    state: 'on'
+  light.kitchen_lights_level:
+    brightness: 255
+    state: 'on'
+  switch.cooktop_led_switch:
+    state: 'on'
+  switch.pendant_led:
+    state: 'on'

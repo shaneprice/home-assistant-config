@@ -1,0 +1,18 @@
+---
+description: Turn on downstairs lights
+alias: motion_downstairs
+id: '599383727852'
+mode: single
+trigger:
+    platform: state
+    entity_id: binary_sensor.middle_stairs_sensor
+    to: 'on'
+action:
+  - service: light.turn_on
+    data: 
+        entity_id: light.middle_stairs
+  - delay: 00:02:00
+  - service: light.turn_off
+    data:
+      entity_id: light.middle_stairs
+    

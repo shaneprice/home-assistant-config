@@ -1,0 +1,6 @@
+---
+garage_sensors:
+    name: Garage Motion Sensors
+    entities:
+        - binary_sensor.garage_sensor_driveway
+        - binary_sensor.garage_sensor_house
