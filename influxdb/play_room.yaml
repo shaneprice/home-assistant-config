@@ -1,0 +1,3 @@
+---
+- sensor.playroom_sensor_temperature
+- sensor.playroom_sensor_relative_humidity

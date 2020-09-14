@@ -1,0 +1,3 @@
+---
+- sensor.office_sensor_temperature
+- sensor.office_sensor_relative_humidity

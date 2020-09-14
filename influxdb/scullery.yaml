@@ -1,2 +1,3 @@
 ---
 - sensor.scullery_temperature
+- sensor.scullery_relative_humidity

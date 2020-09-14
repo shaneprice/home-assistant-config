@@ -1,0 +1,3 @@
+---
+- sensor.bookcase_sensor_temperature
+- sensor.bookcase_sensor_relative_humidity

@@ -6,5 +6,6 @@
 # I like to specify (whitelist) each entity to store,
 # since that keeps my InfluxDB clean and small.
 #
-- sensor.garden_luminosity
-- sensor.garden_luminosity_battery
+[]
+# - sensor.garden_luminosity
+# - sensor.garden_luminosity_battery

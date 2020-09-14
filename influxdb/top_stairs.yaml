@@ -1,0 +1,3 @@
+---
+- sensor.topstairs_sensor_temperature
+- sensor.topstairs_sensor_relative_humidity

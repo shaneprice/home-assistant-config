@@ -28,4 +28,4 @@ logger:
     # I don't want to see warnings about custom integrations
     # deprecations and other stuff.
     # Please note! This is bad practice!
-    homeassistant.loader: warning
+    #homeassistant.loader: warning

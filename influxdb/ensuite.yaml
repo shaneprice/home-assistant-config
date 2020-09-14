@@ -1,0 +1,3 @@
+---
+- sensor.ensuite_sensor_temperature
+- sensor.ensuite_sensor_relative_humidity
