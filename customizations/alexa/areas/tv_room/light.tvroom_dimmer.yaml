@@ -1,0 +1,3 @@
+---
+- light.tvroom_dimmer:
+        name: TV Room Lights

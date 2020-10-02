@@ -1,0 +1,18 @@
+---
+#     # My entry lights are connected using a z-wave wall switch.
+#     # This makes the device a "switch" withing Home Assistant and therefore
+#     # it shows up as a switch in HomeKit and Google Assistant as well.
+#     #
+#     # This little light switch solves that issue.
+#     #
+#     # https://www.home-assistant.io/integrations/light.switch/
+#     #
+platform: broadlink
+mac: 24:df:a7:31:06:1d
+switches:
+  - name: Fireplace
+    command_on: JgBIAAABIpMRFBE3EhQRExITEhETExI2EhQRNxI3ExISExE4EjcRFBISEjYTExEUEjYSExITETYTNxIUETcSNxIUETcSOBEUEAANBQAAAAAAAAAAAAAAAAAA=
+    command_off: JgBIAAABIJMSFBI2ExMRFBEUEBQRExI3EhMRNxE5EhQQExI3EzcRFBE3EhITNxE4EhMQFBISEjcTEhI2ExMSEhM3ETcTNhMTEgANBQAAAAAAAAAAAAAAAAAA=
+#     name: entry_outdoor_dual_switch
+#     entity_id: switch.outdoor_entry_dual_switch
+    

@@ -1,5 +1,5 @@
 ---
-description: Send notification on Home Assistant stop
+description: Motion dectected in Scullery
 alias: motion_in_scullery
 id: '1599383727852'
 mode: single

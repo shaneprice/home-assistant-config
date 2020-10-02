@@ -8,11 +8,11 @@ trigger:
     entity_id: binary_sensor.middle_stairs_sensor
     to: 'on'
 action:
-  - service: light.turn_on
+  - service: switch.turn_on
     data: 
-        entity_id: light.middle_stairs
+        entity_id: switch.downstairs_tread
   - delay: 00:02:00
-  - service: light.turn_off
+  - service: switch.turn_off
     data:
-      entity_id: light.middle_stairs
+      entity_id: switch.downstairs_tread
     

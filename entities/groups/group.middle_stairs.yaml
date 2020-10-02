@@ -2,5 +2,4 @@
     middle_tread_motion:
         name: Middlestairs Tread Motion Sensors
         entities:
-            - binary_sensor.topstairs_sensor
-            - binary_sensor.bookcase_sensor
+            - binary_sensor.middle_stairs_sensor
